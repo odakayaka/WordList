@@ -37,6 +37,11 @@ class QuestionViewController: UIViewController {
         questionLabel.text = shuffledWordArray[nowNumber]["english"] as? String
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
     func shuffle(){
         while wordArray.count > 0{
             let index = Int(rand()) % wordArray.count
@@ -74,10 +79,7 @@ class QuestionViewController: UIViewController {
         }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
 
     /*

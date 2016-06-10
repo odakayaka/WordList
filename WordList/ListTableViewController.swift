@@ -32,6 +32,7 @@ class ListTableTableViewController: UITableViewController {
         }
         tableView.reloadData()
     }
+    //wordArrayを追加し、saveDataというNSUserDefaultsを追加
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -39,26 +40,34 @@ class ListTableTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
+    
+//    セクションの数を設定
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
+//    セルの個数を指定
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return wordArray.count
     }
 
-    /*
+//  セルの中身の表示の仕方を設定
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! ListTableViewCell
+        
+        let nowIndexPathDictionary: (AnyObject) = wordArray[indexPath.row]//wordArrayからDictionaryを取り出す
+        
+        cell.englishLabel.text = nowIndexPathDictionary["english"] as? String//ラベルに代入
+        cell.japaneseLabel.text = nowIndexPathDictionary["japanese"] as? String
 
         // Configure the cell...
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.

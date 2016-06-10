@@ -22,7 +22,7 @@
 		676AE7B11D09A6F4000335E8 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 676AE7AB1D09A6F4000335E8 /* word_blank.png */; };
 		676AE7B31D09ADF7000335E8 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7B21D09ADF7000335E8 /* QuestionViewController.swift */; };
 		676AE7B51D09AE1B000335E8 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7B41D09AE1B000335E8 /* FinishViewController.swift */; };
-		676AE7B71D09AE52000335E8 /* ListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7B61D09AE52000335E8 /* ListTableTableViewController.swift */; };
+		676AE7B71D09AE52000335E8 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7B61D09AE52000335E8 /* ListTableViewController.swift */; };
 		676AE7B91D09AE8C000335E8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7B81D09AE8C000335E8 /* AddViewController.swift */; };
 		676AE7BC1D09D61C000335E8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE7BA1D09D61C000335E8 /* ListTableViewCell.swift */; };
 		676AE7BD1D09D61C000335E8 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676AE7BB1D09D61C000335E8 /* ListTableViewCell.xib */; };
@@ -67,7 +67,7 @@
 		676AE7AB1D09A6F4000335E8 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
 		676AE7B21D09ADF7000335E8 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		676AE7B41D09AE1B000335E8 /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
-		676AE7B61D09AE52000335E8 /* ListTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableTableViewController.swift; sourceTree = "<group>"; };
+		676AE7B61D09AE52000335E8 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		676AE7B81D09AE8C000335E8 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		676AE7BA1D09D61C000335E8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		676AE7BB1D09D61C000335E8 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				676AE7821D09A60F000335E8 /* Info.plist */,
 				676AE7B21D09ADF7000335E8 /* QuestionViewController.swift */,
 				676AE7B41D09AE1B000335E8 /* FinishViewController.swift */,
-				676AE7B61D09AE52000335E8 /* ListTableTableViewController.swift */,
+				676AE7B61D09AE52000335E8 /* ListTableViewController.swift */,
 				676AE7B81D09AE8C000335E8 /* AddViewController.swift */,
 				676AE7BA1D09D61C000335E8 /* ListTableViewCell.swift */,
 				676AE7BB1D09D61C000335E8 /* ListTableViewCell.xib */,
@@ -322,7 +322,7 @@
 				676AE7B91D09AE8C000335E8 /* AddViewController.swift in Sources */,
 				676AE7771D09A60F000335E8 /* AppDelegate.swift in Sources */,
 				676AE7B31D09ADF7000335E8 /* QuestionViewController.swift in Sources */,
-				676AE7B71D09AE52000335E8 /* ListTableTableViewController.swift in Sources */,
+				676AE7B71D09AE52000335E8 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +553,7 @@
 				676AE79D1D09A610000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676AE79E1D09A610000335E8 /* Build configuration list for PBXNativeTarget "WordListTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +562,7 @@
 				676AE7A01D09A610000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676AE7A11D09A610000335E8 /* Build configuration list for PBXNativeTarget "WordListUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +571,7 @@
 				676AE7A31D09A610000335E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
