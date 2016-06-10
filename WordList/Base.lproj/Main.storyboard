@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordList2" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
         <!--Question View Controller-->
         <scene sceneID="lMD-UN-yap">
             <objects>
-                <viewController id="8g3-bn-4ky" customClass="QuestionViewController" customModule="WordList2" sceneMemberID="viewController">
+                <viewController id="8g3-bn-4ky" customClass="QuestionViewController" customModule="WordList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t77-ZN-GKe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
         <!--Finish View Controller-->
         <scene sceneID="fpH-fg-Jsk">
             <objects>
-                <viewController id="ToI-uE-GJe" customClass="FinishViewController" customModule="WordList2" sceneMemberID="viewController">
+                <viewController id="ToI-uE-GJe" customClass="FinishViewController" customModule="WordList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="arZ-Mq-vv2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
         <!--一覧-->
         <scene sceneID="ldd-t7-jhS">
             <objects>
-                <tableViewController id="Ryo-MB-4gL" customClass="ListTableTableViewController" customModule="WordList2" sceneMemberID="viewController">
+                <tableViewController id="Ryo-MB-4gL" customClass="ListTableTableViewController" customModule="WordList" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4sH-RK-512">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,7 +186,7 @@
         <!--新規追加-->
         <scene sceneID="fmD-ns-mQh">
             <objects>
-                <viewController id="cLb-u0-dR1" customClass="AddViewController" customModule="WordList2" sceneMemberID="viewController">
+                <viewController id="cLb-u0-dR1" customClass="AddViewController" customModule="WordList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rfY-YO-rlW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
