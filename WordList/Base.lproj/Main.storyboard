@@ -136,6 +136,9 @@
                                 <state key="normal" title="TOPにもどる">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="KUg-ng-Oqe" kind="unwind" unwindAction="back:" id="SwH-Ud-CCi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2877358397" green="0.56773560209999996" blue="0.25780958139999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -143,13 +146,14 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ict-cU-Orh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KUg-ng-Oqe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="940" y="368"/>
         </scene>
         <!--一覧-->
         <scene sceneID="ldd-t7-jhS">
             <objects>
-                <tableViewController id="Ryo-MB-4gL" customClass="ListTableTableViewController" customModule="WordList" sceneMemberID="viewController">
+                <tableViewController id="Ryo-MB-4gL" customClass="ListTableViewController" customModule="WordList" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4sH-RK-512">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
